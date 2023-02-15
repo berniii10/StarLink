@@ -1,0 +1,168 @@
+PING google.com (142.250.147.138) 56(84) bytes of data.
+64 bytes from rd-in-f138.1e100.net (142.250.147.138): icmp_seq=1 ttl=55 time=36.2 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.239/36.239/36.239/0.000 ms
+
+PING google.com (142.250.147.102) 56(84) bytes of data.
+64 bytes from rd-in-f102.1e100.net (142.250.147.102): icmp_seq=1 ttl=54 time=41.7 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 41.719/41.719/41.719/0.000 ms
+
+PING google.com (142.250.147.138) 56(84) bytes of data.
+64 bytes from rd-in-f138.1e100.net (142.250.147.138): icmp_seq=1 ttl=55 time=39.6 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 39.585/39.585/39.585/0.000 ms
+
+PING google.com (142.250.147.101) 56(84) bytes of data.
+64 bytes from rd-in-f101.1e100.net (142.250.147.101): icmp_seq=1 ttl=55 time=35.9 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 35.925/35.925/35.925/0.000 ms
+
+PING google.com (142.250.147.113) 56(84) bytes of data.
+64 bytes from rd-in-f113.1e100.net (142.250.147.113): icmp_seq=1 ttl=54 time=44.9 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 44.909/44.909/44.909/0.000 ms
+
+PING google.com (142.250.147.102) 56(84) bytes of data.
+64 bytes from rd-in-f102.1e100.net (142.250.147.102): icmp_seq=1 ttl=54 time=35.9 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 35.933/35.933/35.933/0.000 ms
+
+PING google.com (142.250.147.101) 56(84) bytes of data.
+64 bytes from rd-in-f101.1e100.net (142.250.147.101): icmp_seq=1 ttl=55 time=36.8 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.846/36.846/36.846/0.000 ms
+
+PING google.com (142.250.147.101) 56(84) bytes of data.
+64 bytes from rd-in-f101.1e100.net (142.250.147.101): icmp_seq=1 ttl=55 time=38.9 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 38.859/38.859/38.859/0.000 ms
+
+PING google.com (142.250.147.100) 56(84) bytes of data.
+64 bytes from rd-in-f100.1e100.net (142.250.147.100): icmp_seq=1 ttl=102 time=35.1 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 35.105/35.105/35.105/0.000 ms
+
+PING google.com (142.250.147.101) 56(84) bytes of data.
+64 bytes from rd-in-f101.1e100.net (142.250.147.101): icmp_seq=1 ttl=55 time=35.8 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 35.762/35.762/35.762/0.000 ms
+
+PING google.com (142.250.147.100) 56(84) bytes of data.
+64 bytes from rd-in-f100.1e100.net (142.250.147.100): icmp_seq=1 ttl=102 time=36.2 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.161/36.161/36.161/0.000 ms
+
+PING google.com (142.250.147.101) 56(84) bytes of data.
+64 bytes from rd-in-f101.1e100.net (142.250.147.101): icmp_seq=1 ttl=55 time=35.1 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 35.113/35.113/35.113/0.000 ms
+
+PING google.com (142.250.147.113) 56(84) bytes of data.
+64 bytes from rd-in-f113.1e100.net (142.250.147.113): icmp_seq=1 ttl=54 time=35.5 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 35.524/35.524/35.524/0.000 ms
+
+PING google.com (142.250.147.138) 56(84) bytes of data.
+64 bytes from rd-in-f138.1e100.net (142.250.147.138): icmp_seq=1 ttl=55 time=40.1 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 40.085/40.085/40.085/0.000 ms
+
+PING google.com (142.250.147.100) 56(84) bytes of data.
+64 bytes from rd-in-f100.1e100.net (142.250.147.100): icmp_seq=1 ttl=102 time=35.2 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 35.183/35.183/35.183/0.000 ms
+
+PING google.com (142.250.147.138) 56(84) bytes of data.
+64 bytes from rd-in-f138.1e100.net (142.250.147.138): icmp_seq=1 ttl=55 time=34.7 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 34.742/34.742/34.742/0.000 ms
+
+PING google.com (142.250.147.102) 56(84) bytes of data.
+64 bytes from rd-in-f102.1e100.net (142.250.147.102): icmp_seq=1 ttl=54 time=34.7 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 34.722/34.722/34.722/0.000 ms
+
+PING google.com (142.250.147.101) 56(84) bytes of data.
+64 bytes from rd-in-f101.1e100.net (142.250.147.101): icmp_seq=1 ttl=55 time=35.1 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 35.081/35.081/35.081/0.000 ms
+
+PING google.com (142.250.147.139) 56(84) bytes of data.
+64 bytes from rd-in-f139.1e100.net (142.250.147.139): icmp_seq=1 ttl=101 time=36.0 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 35.966/35.966/35.966/0.000 ms
+
+PING google.com (142.250.147.102) 56(84) bytes of data.
+64 bytes from rd-in-f102.1e100.net (142.250.147.102): icmp_seq=1 ttl=54 time=36.2 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.210/36.210/36.210/0.000 ms
+
+PING google.com (142.250.147.102) 56(84) bytes of data.
+64 bytes from rd-in-f102.1e100.net (142.250.147.102): icmp_seq=1 ttl=54 time=36.2 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.208/36.208/36.208/0.000 ms
+
+PING google.com (142.250.147.138) 56(84) bytes of data.
+64 bytes from rd-in-f138.1e100.net (142.250.147.138): icmp_seq=1 ttl=55 time=37.9 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 37.878/37.878/37.878/0.000 ms
+
+PING google.com (142.250.147.138) 56(84) bytes of data.
+64 bytes from rd-in-f138.1e100.net (142.250.147.138): icmp_seq=1 ttl=55 time=36.6 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.631/36.631/36.631/0.000 ms
+
+PING google.com (142.250.147.113) 56(84) bytes of data.
+64 bytes from rd-in-f113.1e100.net (142.250.147.113): icmp_seq=1 ttl=54 time=36.8 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 36.846/36.846/36.846/0.000 ms
+
