@@ -111,6 +111,7 @@ def f4_csv():
     with open("pingtests.csv", "a") as file:
         s = int(input("For how many seconds do you want to execute the test? "))
         p_t = float(input("How often do you want to send pings? "))
+        n_hops = input("Number of hops: ")
         end_time = time.time() + s
         
         header = ["host", "ip", "icmp", "ttl", "rtt", "trans_pack", "recv_pack", "pack_loss", "min/avg/max/mdev"]
@@ -120,7 +121,7 @@ def f4_csv():
             data = []
             print("Before ping")
             try: 
-                out = sb.check_output(['ping', ip, '-c', '1']).decode()
+                out = sb.check_output(['ping', ip, '-c', '1', '-i', n_hops]).decode()
             except sb.CalledProcessError as e:
                 file.write("---\n")
                 print("Error in ping. This will be written as ---")
@@ -149,8 +150,8 @@ def f4_csv():
 
 def f5():
 
-    t = int(input("How long do you want to execute the test? (in seconds)"))
-
+    t = int(input("How long do you want to execute the test? (in seconds) "))
+    ip = input("Gateway IP: ")
     end_t = time.time() + t
 
     newDataInFile("speedtests_s.csv")
@@ -158,10 +159,22 @@ def f5():
     print("Executing test...")
     while time.time() < end_t:
 
+        b = time.time()
+        out = sb.check_output(['ping', ip, '-c', '1']).decode() 
+        outping = out.split()[13].replace("time=", "")
+        print(f"Ping to gateway {outping}")
+
         out = sb.check_output(['speedtest-cli', '--simple']).decode()
+
+
+        while time.time() < b + 25:
+            pass
         print(out)
         out = out.split()
         data = []
+        out[1] = str(float(out[1])-float(outping))
+        # print(out[1])
+
         data.append(out[1] + out[2])
         data.append(out[4] + out[5])
         data.append(out[7] + out[8])
@@ -257,3 +270,12 @@ def main():
 
 if __name__ == '__main__':
     main()
+    """
+    start_time = time.time()
+    output = sb.check_output(['speedtest-cli', '--simple'])
+    end_time = time.time()
+
+    elapsed_time = end_time - start_time
+
+    print(f"Command took {elapsed_time:.2f} seconds to execute")
+    """
