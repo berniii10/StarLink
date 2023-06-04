@@ -129,7 +129,7 @@ def f4_csv():       # ping test
 
         saveFile(ping_test, data, ping_test_header)
         saveFile(pings_log, data, ping_test_header)
-        saveFile(pings_path + str(current_time) + ".csv", data, ping_test_header)
+        saveFile(pings_path + "ping" + str(current_time) + ".csv", data, ping_test_header)
     print()
     
 
@@ -166,7 +166,7 @@ def f5():       # speed test test
 
         saveFile(speed_test, data, speed_test_header)
         saveFile(speedtests_log, data, speed_test_header)
-        saveFile(speedtest_path + str(current_time) + ".csv", data, ping_test_header)
+        saveFile(speedtest_path + "speed" + str(current_time) + ".csv", data, ping_test_header)
 
 
 
